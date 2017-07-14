@@ -2637,7 +2637,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 545.78406, y: -1361.257}
+  m_AnchoredPosition: {x: 545.78406, y: -1361.2568}
   m_SizeDelta: {x: 293.27902, y: 105.580444}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &931329000
@@ -2798,6 +2798,34 @@ Prefab:
     - target: {fileID: 400000, guid: eb5b47b08880548c795ced5f38c9e001, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: eb5b47b08880548c795ced5f38c9e001, type: 2}
+      propertyPath: androidTrackingCode
+      value: UA-102581122-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: eb5b47b08880548c795ced5f38c9e001, type: 2}
+      propertyPath: IOSTrackingCode
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: eb5b47b08880548c795ced5f38c9e001, type: 2}
+      propertyPath: otherTrackingCode
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: eb5b47b08880548c795ced5f38c9e001, type: 2}
+      propertyPath: productName
+      value: Ai Cuvinte
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: eb5b47b08880548c795ced5f38c9e001, type: 2}
+      propertyPath: bundleIdentifier
+      value: com.psdartist.aicuvinte
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: eb5b47b08880548c795ced5f38c9e001, type: 2}
+      propertyPath: bundleVersion
+      value: 1.0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: eb5b47b08880548c795ced5f38c9e001, type: 2}
+      propertyPath: logLevel
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb5b47b08880548c795ced5f38c9e001, type: 2}
@@ -3969,10 +3997,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17a746ac8a15e3d4dac874e6d989e78d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  androidInterstitial: ca-app-pub-1040245951644301/3981251479
-  iosInterstitial: ca-app-pub-1040245951644301/9888184277
-  androidRewardedVideo: ca-app-pub-1040245951644301/5457984679
-  iosRewardedVideo: ca-app-pub-1040245951644301/2364917470
+  androidInterstitial: ca-app-pub-9797899632165818/3327231541
+  iosInterstitial: 
+  androidRewardedVideo: ca-app-pub-9797899632165818/1850498344
+  iosRewardedVideo: 
 --- !u!4 &1429844349
 Transform:
   m_ObjectHideFlags: 0
@@ -4418,7 +4446,7 @@ MonoBehaviour:
   wordGrid: {fileID: 910527220}
   letterTilePrefab: {fileID: 11454354, guid: db8b2f81259d8495e8e9a31f9ca9b0f5, type: 2}
   categoryInfos:
-  - name: Category 1
+  - name: Baschet
     description: 2x2
     icon: {fileID: 21300000, guid: 20c1d55f968de534fbcf70ff60b71e4b, type: 3}
     levelInfos:
@@ -4442,9 +4470,9 @@ MonoBehaviour:
       - SPIC
     - words:
       - EGAL
-  - name: Category 2
+  - name: Fotbal
     description: 2x2
-    icon: {fileID: 21300000, guid: d1b2c758ba20dcb4c850793500653875, type: 3}
+    icon: {fileID: 21300000, guid: 141f2e4184977e64eb80d208a07b0523, type: 3}
     levelInfos:
     - words:
       - BRAD
@@ -4466,9 +4494,9 @@ MonoBehaviour:
       - "LAM\u0102"
     - words:
       - TARE
-  - name: Category 3
+  - name: Bomba
     description: 3x3
-    icon: {fileID: 21300000, guid: 4f55164feb2aadb44b2c57bc5ac226ee, type: 3}
+    icon: {fileID: 21300000, guid: ca0a548a1cb0e3e48a5bd0b82cb6f7f6, type: 3}
     levelInfos:
     - words:
       - "PUBEL\u0102"
@@ -4530,9 +4558,9 @@ MonoBehaviour:
     - words:
       - FRIZER
       - ARC
-  - name: Category 4
+  - name: Hamburger
     description: 3x3
-    icon: {fileID: 21300000, guid: 1b5306e8bf35f6a46a1326007d6ec597, type: 3}
+    icon: {fileID: 21300000, guid: 1a4241ab2498b9d44b2a792b28493d99, type: 3}
     levelInfos:
     - words:
       - FOC
@@ -4654,9 +4682,9 @@ MonoBehaviour:
     - words:
       - JOI
       - SCUTEC
-  - name: Category 5
+  - name: Monstrulet
     description: 3x3
-    icon: {fileID: 21300000, guid: cb36220cd4df926468e7972de5d6b65e, type: 3}
+    icon: {fileID: 21300000, guid: 4e8afd7e1703f334da102e5e6372d679, type: 3}
     levelInfos:
     - words:
       - "TAT\u0102"
@@ -4778,7 +4806,7 @@ MonoBehaviour:
     - words:
       - SUPER
       - "MU\u0218CHI"
-  - name: Category 6
+  - name: Gogoasa
     description: 3x3
     icon: {fileID: 21300000, guid: eeb640be63591a34f9f5e72f8c559890, type: 3}
     levelInfos:
@@ -4902,9 +4930,9 @@ MonoBehaviour:
     - words:
       - NEAM
       - PROST
-  - name: Category 7
+  - name: Foc
     description: 4X4
-    icon: {fileID: 21300000, guid: 42388f6f8953e244d922e28def16dbec, type: 3}
+    icon: {fileID: 21300000, guid: 1b5306e8bf35f6a46a1326007d6ec597, type: 3}
     levelInfos:
     - words:
       - SEED
@@ -4996,9 +5024,9 @@ MonoBehaviour:
       - PENCIL
       - ERASER
       - BOOK
-  - name: Category 8
+  - name: Briceag
     description: 4X4
-    icon: {fileID: 21300000, guid: 141f2e4184977e64eb80d208a07b0523, type: 3}
+    icon: {fileID: 21300000, guid: 137b3881d908edb4dafa647ef41b222a, type: 3}
     levelInfos:
     - words:
       - TREE
@@ -5166,9 +5194,9 @@ MonoBehaviour:
       - COCONUT
       - KIWI
       - MANGO
-  - name: Category 9
+  - name: Camion
     description: 4X4
-    icon: {fileID: 21300000, guid: a3e5f96df0d9b0b4ca7eded0e22c9854, type: 3}
+    icon: {fileID: 21300000, guid: 282c31072e50b2641a0bc70455a317fe, type: 3}
     levelInfos:
     - words:
       - HOBBY
@@ -5338,9 +5366,9 @@ MonoBehaviour:
     - words:
       - MANNERS
       - ETIQUETTE
-  - name: Category 14
+  - name: Chimia
     description: 5X5
-    icon: {fileID: 21300000, guid: 137b3881d908edb4dafa647ef41b222a, type: 3}
+    icon: {fileID: 21300000, guid: 42388f6f8953e244d922e28def16dbec, type: 3}
     levelInfos:
     - words:
       - HAPPY
@@ -5447,210 +5475,6 @@ MonoBehaviour:
       - FOSSIL
       - EXTINCT
       - BONE
-  - name: Daily Puzzle
-    description: 
-    icon: {fileID: 21300000, guid: cf292c56df690439ea91a7764c00e835, type: 3}
-    levelInfos:
-    - words:
-      - IDENTICAL
-    - words:
-      - CHOCOLATE
-    - words:
-      - BEAUTIFUL
-    - words:
-      - HAPPINESS
-    - words:
-      - WEDNESDAY
-    - words:
-      - CHALLENGE
-    - words:
-      - CELEBRATE
-    - words:
-      - ADVENTURE
-    - words:
-      - IMPORTANT
-    - words:
-      - DANGEROUS
-    - words:
-      - KNOWLEDGE
-    - words:
-      - PRESIDENT
-    - words:
-      - WRESTLING
-    - words:
-      - PINEAPPLE
-    - words:
-      - SECRETARY
-    - words:
-      - UNDEFINED
-    - words:
-      - HALLOWEEN
-    - words:
-      - AMBULANCE
-    - words:
-      - ALLIGATOR
-    - words:
-      - SEVENTEEN
-    - words:
-      - AFFECTION
-    - words:
-      - COMMUNITY
-    - words:
-      - DIFFERENT
-    - words:
-      - VEGETABLE
-    - words:
-      - INFLUENCE
-    - words:
-      - STRUCTURE
-    - words:
-      - INVISIBLE
-    - words:
-      - WONDERFUL
-    - words:
-      - PACKAGING
-    - words:
-      - PROVOKING
-    - words:
-      - NUTRITION
-    - words:
-      - CROCODILE
-    - words:
-      - EDUCATION
-    - words:
-      - BEGINNING
-    - words:
-      - BRAINLESS
-    - words:
-      - BREATHING
-    - words:
-      - SEPTEMBER
-    - words:
-      - WORTHLESS
-    - words:
-      - BREAKFAST
-    - words:
-      - HAMBURGER
-    - words:
-      - CHARACTER
-    - words:
-      - ADVERSITY
-    - words:
-      - CONFUSION
-    - words:
-      - ABDUCTING
-    - words:
-      - AFTERLIFE
-    - words:
-      - SUFFERING
-    - words:
-      - EVERYBODY
-    - words:
-      - CURIOSITY
-    - words:
-      - CELEBRITY
-    - words:
-      - DELICIOUS
-    - words:
-      - ATTENTION
-    - words:
-      - COMPANION
-    - words:
-      - DIFFICULT
-    - words:
-      - NECESSARY
-    - words:
-      - LIGHTNING
-    - words:
-      - CHEMISTRY
-    - words:
-      - RECYCLING
-    - words:
-      - TREATMENT
-    - words:
-      - SPAGHETTI
-    - words:
-      - AGREEMENT
-    - words:
-      - ECOSYSTEM
-    - words:
-      - GENERATOR
-    - words:
-      - ADDICTION
-    - words:
-      - RADIATION
-    - words:
-      - INNOCENCE
-    - words:
-      - NIGHTMARE
-    - words:
-      - DIRECTION
-    - words:
-      - REFERENCE
-    - words:
-      - SUNFLOWER
-    - words:
-      - AUTHORITY
-    - words:
-      - INCEPTION
-    - words:
-      - FIREWORKS
-    - words:
-      - HAPPENING
-    - words:
-      - AWARENESS
-    - words:
-      - HURRICANE
-    - words:
-      - LISTENING
-    - words:
-      - PROFESSOR
-    - words:
-      - GATHERING
-    - words:
-      - SCIENTIST
-    - words:
-      - ASTRONAUT
-    - words:
-      - BRILLIANT
-    - words:
-      - FANTASTIC
-    - words:
-      - WATERFALL
-    - words:
-      - FORGOTTEN
-    - words:
-      - SLEEPOVER
-    - words:
-      - TREASURER
-    - words:
-      - SIGNATURE
-    - words:
-      - SENSATION
-    - words:
-      - DESPERATE
-    - words:
-      - HOUSEWIFE
-    - words:
-      - YOUNGSTER
-    - words:
-      - DISCOVERY
-    - words:
-      - DEMOCRACY
-    - words:
-      - REARRANGE
-    - words:
-      - CARPENTER
-    - words:
-      - FURNITURE
-    - words:
-      - BOYFRIEND
-    - words:
-      - SNOWFLAKE
-    - words:
-      - BELONGING
-    - words:
-      - SACRIFICE
   dailyPuzzles:
   - words:
     - "CATEDRAL\u0102"
@@ -6019,7 +5843,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 545.78406, y: -1145.641}
+  m_AnchoredPosition: {x: 545.78406, y: -1145.6409}
   m_SizeDelta: {x: 800, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1577223067
@@ -6560,6 +6384,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!224 &1682482476
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6702,6 +6527,10 @@ RectTransform:
   m_Father: {fileID: 2011250779}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 545.78406, y: -1143.1409}
+  m_SizeDelta: {x: 891.5681, y: 183.7882}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1744651356
 MonoBehaviour:
@@ -6776,6 +6605,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 238, y: -24}
+  m_SizeDelta: {x: 613.9307, y: 70.38696}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1753256478
 MonoBehaviour:
@@ -7029,6 +6859,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -79.938896}
+  m_SizeDelta: {x: 215.07127, y: 50.83503}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1794166918
 MonoBehaviour:
@@ -7103,6 +6935,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.000015258789, y: 0}
+  m_SizeDelta: {x: 492.70874, y: 113.40122}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1814938004
 MonoBehaviour:
@@ -7190,6 +7023,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 40.800003}
+  m_SizeDelta: {x: 348.02444, y: 222.89206}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1875670619
 MonoBehaviour:
@@ -7818,6 +7652,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 100}
+  m_SizeDelta: {x: -2322.1997, y: -200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2011250780
 MonoBehaviour:
@@ -7869,6 +7704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!224 &2018097594
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7943,6 +7779,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 3298.768, y: -85.15}
   m_SizeDelta: {x: 170, y: 170.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040616746
@@ -8060,6 +7897,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -89.938896}
+  m_SizeDelta: {x: 328.4725, y: 89.938896}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &2077028242
 MonoBehaviour:
@@ -8134,6 +7973,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 236, y: 40}
+  m_SizeDelta: {x: 308.92056, y: 70.38696}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &2079227070
 MonoBehaviour:
@@ -8221,6 +8061,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 406.68024, y: 117.31161}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2097923027
 MonoBehaviour:
