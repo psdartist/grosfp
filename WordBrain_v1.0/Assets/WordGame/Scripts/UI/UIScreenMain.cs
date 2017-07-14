@@ -81,8 +81,8 @@ public class UIScreenMain : UIScreen
 				continueBtnLevelIndex	= 0;
 			}
 			
-			continueBtnTopText.text		= "PLAY";
-			continueBtnBottomText.text	= string.Format("{0} LEVEL {1}", continueBtnCategory.ToUpper(), continueBtnLevelIndex + 1);
+			continueBtnTopText.text		= "JOACĂ";
+			continueBtnBottomText.text	= string.Format("{0} NIVEL {1}", continueBtnCategory.ToUpper(), continueBtnLevelIndex + 1);
 			continueBtnImage.sprite		= GameManager.Instance.GetCategoryInfo(continueBtnCategory).icon;
 		}
 		else
@@ -90,8 +90,8 @@ public class UIScreenMain : UIScreen
 			continueBtnCategory		= GameManager.Instance.ActiveCategory;
 			continueBtnLevelIndex	= GameManager.Instance.ActiveLevelIndex;
 
-			continueBtnTopText.text		= "CONTINUE";
-			continueBtnBottomText.text	= string.Format("{0} LEVEL {1}", continueBtnCategory.ToUpper(), continueBtnLevelIndex + 1);
+			continueBtnTopText.text		= "CONTINUĂ";
+			continueBtnBottomText.text	= string.Format("{0} NIVEL {1}", continueBtnCategory.ToUpper(), continueBtnLevelIndex + 1);
 			continueBtnImage.sprite		= GameManager.Instance.GetCategoryInfo(continueBtnCategory).icon;
 		}
 	}
