@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.08742432, g: 0.36510053, b: 0.5661765, a: 1}
+  m_Color: {r: 0.08742432, g: 0.36510053, b: 0.5661765, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2072,7 +2072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.26274514, g: 0.60757273, b: 0.8509804, a: 1}
+  m_Color: {r: 0.26274514, g: 0.60757273, b: 0.8509804, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4783,125 +4783,125 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: eeb640be63591a34f9f5e72f8c559890, type: 3}
     levelInfos:
     - words:
-      - LONG
-      - SHORT
+      - "ZAH\u0102R"
+      - MARE
+    - words:
+      - DULCE
+      - GRAS
+    - words:
+      - "PR\u0102JIT"
+      - MIEZ
+    - words:
+      - "AROM\u0102"
+      - CINCI
+    - words:
+      - SIROP
+      - MURE
+    - words:
+      - "CREM\u0102"
+      - CAJU
+    - words:
+      - "ESEN\u021A\u0102"
+      - ROM
+    - words:
+      - ALUAT
+      - COPT
+    - words:
+      - "ART\u0102"
+      - LEGAL
+    - words:
+      - "GUM\u0102"
+      - IARNA
+    - words:
+      - CALM
+      - FURAT
+    - words:
+      - CASH
+      - CURAT
+    - words:
+      - "LAN\u021A"
+      - "\u021AINT\u0102"
+    - words:
+      - CLOR
+      - "DIN\u021AI"
+    - words:
+      - TERME
+      - CIRC
+    - words:
+      - "LIMB\u0102"
+      - DANS
+    - words:
+      - DATE
+      - TOTEM
+    - words:
+      - "TRUF\u0102"
+      - TOBE
+    - words:
+      - DUEL
+      - TUNEL
+    - words:
+      - GOLF
+      - "CURB\u0102"
     - words:
       - FIRE
-      - WATER
+      - VIRUS
     - words:
-      - BURN
-      - SMOKE
+      - FIER
+      - VOCAL
     - words:
-      - RIGHT
-      - LEFT
+      - "MUZ\u0102"
+      - "MORS\u0102"
     - words:
-      - MOON
-      - SHINE
+      - ZIAR
+      - FOCOS
     - words:
-      - AFTER
-      - NOON
+      - "P\u0102UN"
+      - BOGAT
     - words:
-      - SHOCK
-      - WAVE
-    - words:
-      - CHOP
-      - STEAK
-    - words:
-      - WASH
-      - HOUSE
-    - words:
-      - KING
-      - QUEEN
-    - words:
-      - FRONT
-      - BACK
-    - words:
-      - SONG
-      - DANCE
-    - words:
-      - SAND
-      - BEACH
-    - words:
-      - BAT
-      - SPIDER
-    - words:
-      - WAIT
-      - HURRY
-    - words:
-      - PLAY
-      - THING
-    - words:
-      - LAUGH
-      - JOKE
-    - words:
-      - SALT
-      - SUGAR
-    - words:
-      - SPACE
-      - SUIT
-    - words:
-      - GIRL
-      - WOMAN
-    - words:
-      - FIRE
-      - WOODS
-    - words:
-      - FIRST
-      - LOVE
-    - words:
-      - MOVIE
-      - FILM
-    - words:
-      - FAIRY
-      - TALE
-    - words:
-      - ROCK
-      - STARS
-    - words:
-      - BEACH
-      - BALL
+      - "UR\xC2T"
+      - SUDOR
     - words:
       - STOP
-      - WATCH
+      - "S\xC2RM\u0102"
     - words:
-      - RACE
-      - HORSE
+      - "EPAV\u0102"
+      - MELC
     - words:
-      - COIN
-      - PURSE
+      - VENE
+      - CHEIE
     - words:
-      - NORTH
-      - POLE
+      - "MIZ\u0102"
+      - IAURT
     - words:
-      - HAT
-      - GLOVES
+      - DAR
+      - "ZEBR\u0102"
     - words:
-      - BODY
-      - GUARD
+      - ALTAR
+      - GEST
     - words:
-      - OVER
-      - SLEEP
+      - "ARCA\u0218"
+      - "NOU\u0102"
     - words:
-      - COUNT
-      - DOWN
+      - BIDEU
+      - "ORC\u0102"
     - words:
-      - HANDLE
-      - BAR
+      - CURTE
+      - OLAR
     - words:
-      - PLUS
+      - ZIAR
       - MINUS
     - words:
-      - BOMB
-      - SHELL
+      - "BARB\u0102"
+      - "RAS\u0102"
     - words:
-      - COPY
-      - RIGHT
+      - EXOD
+      - PIEPT
     - words:
-      - EASTER
-      - EGG
+      - MAIA
+      - "BUC\u0218\u0102"
     - words:
-      - GUIDE
-      - POST
+      - NEAM
+      - PROST
   - name: Category 7
     description: 4X4
     icon: {fileID: 21300000, guid: 42388f6f8953e244d922e28def16dbec, type: 3}
