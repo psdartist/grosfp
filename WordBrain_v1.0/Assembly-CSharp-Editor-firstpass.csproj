@@ -109,16 +109,16 @@
  <HintPath>E:/Program Files (x86)/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Google.IOSResolver">
- <HintPath>C:/Users/zasul/Downloads/WordBrain_v1.0/Assets/PlayServicesResolver/Editor/Google.IOSResolver.dll</HintPath>
+ <HintPath>E:/munca/five/game/wordbrz/grosfp/WordBrain_v1.0/Assets/PlayServicesResolver/Editor/Google.IOSResolver.dll</HintPath>
  </Reference>
  <Reference Include="Google.JarResolver">
- <HintPath>C:/Users/zasul/Downloads/WordBrain_v1.0/Assets/PlayServicesResolver/Editor/Google.JarResolver.dll</HintPath>
+ <HintPath>E:/munca/five/game/wordbrz/grosfp/WordBrain_v1.0/Assets/PlayServicesResolver/Editor/Google.JarResolver.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandler">
- <HintPath>C:/Users/zasul/Downloads/WordBrain_v1.0/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+ <HintPath>E:/munca/five/game/wordbrz/grosfp/WordBrain_v1.0/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
  </Reference>
  <Reference Include="Editor.ReorderableList">
- <HintPath>C:/Users/zasul/Downloads/WordBrain_v1.0/Assets/Rotorz/Reorderable List Field/Editor/Editor.ReorderableList.dll</HintPath>
+ <HintPath>E:/munca/five/game/wordbrz/grosfp/WordBrain_v1.0/Assets/Rotorz/Reorderable List Field/Editor/Editor.ReorderableList.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
