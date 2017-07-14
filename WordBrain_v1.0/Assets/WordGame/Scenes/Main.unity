@@ -4935,95 +4935,91 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 1b5306e8bf35f6a46a1326007d6ec597, type: 3}
     levelInfos:
     - words:
-      - SEED
-      - TREE
-      - GROW
-      - LEAF
+      - POM
+      - COPAC
+      - PIN
+      - "FRUNZ\u0102"
     - words:
-      - HOPE
-      - LOVE
-      - FEAR
-      - SICK
+      - LUP
+      - URS
+      - VULPE
+      - PORCI
     - words:
-      - SODA
-      - MILK
-      - JUICE
-      - TEA
+      - SUC
+      - LAPTE
+      - CEAI
+      - "AP\u0102"
     - words:
-      - FAST
-      - SLOW
-      - RUN
-      - DRIVE
+      - CAP
+      - "M\xC2N\u0102"
+      - PICIOR
+      - "G\xC2T"
     - words:
-      - FISH
-      - RIVER
-      - SEA
-      - CRAB
+      - "V\xC2NT"
+      - PLOAIE
+      - GER
+      - CALD
     - words:
-      - LADY
-      - GIRL
-      - DAUGHTER
+      - BISHON
+      - MOPS
+      - PUG
+      - LUP
     - words:
-      - UMBRELLA
-      - RAIN
-      - SNOW
+      - ACTOR
+      - "SCEN\u0102"
+      - "PIES\u0102"
     - words:
-      - PILOT
-      - SKY
-      - AIR
-      - PLANE
+      - "PLAJ\u0102"
+      - NISIP
+      - SOARE
     - words:
-      - PEACH
-      - ORANGE
-      - MELON
+      - NEGRU
+      - "RO\u0218U"
+      - VIOLET
     - words:
-      - PINK
-      - YELLOW
-      - PURPLE
+      - "TEAM\u0102"
+      - "FRIC\u0102"
+      - "SPAIM\u0102"
     - words:
-      - APPLE
-      - JAM
-      - HONEY
-      - PIE
+      - "M\u0102R"
+      - "PL\u0102CINT\u0102"
+      - "ZAH\u0102R"
     - words:
-      - NICE
-      - COOL
-      - KIND
-      - GOOD
+      - GUNOI
+      - "DE\u015EEU"
+      - POLUAT
     - words:
-      - NOSE
-      - FACE
-      - LIPS
-      - EYES
+      - "ARM\u0102"
+      - CRIMINAL
+      - FURT
     - words:
-      - DINNER
-      - SNACK
-      - LUNCH
+      - "CIN\u0102"
+      - "PR\xC2NZ"
+      - DESERT
     - words:
-      - DRAW
-      - SING
-      - EXERCISE
+      - DESEN
+      - "C\xC2NTAT"
+      - SUNET
     - words:
-      - CAT
-      - RABBIT
-      - PENGUIN
+      - "CUP\u0102"
+      - SPORT
+      - CAMPION
     - words:
-      - PIANO
-      - VIOLIN
-      - FLUTE
+      - PIAN
+      - "VIOAR\u0102"
+      - "HARP\u0102"
     - words:
-      - FRIEND
-      - SCHOOL
-      - PLAY
+      - COLEG
+      - AMIC
+      - PRIETEN
     - words:
-      - STAR
-      - MOON
-      - SUN
-      - EARTH
+      - STEA
+      - PLANETA
+      - SOARE
     - words:
-      - PENCIL
-      - ERASER
-      - BOOK
+      - PIX
+      - STILOU
+      - CREION
   - name: Briceag
     description: 4X4
     icon: {fileID: 21300000, guid: 137b3881d908edb4dafa647ef41b222a, type: 3}
