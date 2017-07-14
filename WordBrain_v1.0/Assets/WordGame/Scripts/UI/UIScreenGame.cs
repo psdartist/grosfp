@@ -19,7 +19,7 @@ public class UIScreenGame : UIScreen
 
 	private void Update()
 	{
-		hintBtnText.text = string.Format("HINT ({0})", GameManager.Instance.CurrentHints);
+		hintBtnText.text = string.Format("INDICIU ({0})", GameManager.Instance.CurrentHints);
 	}
 
 	#endregion
@@ -41,16 +41,16 @@ public class UIScreenGame : UIScreen
 		CategoryInfo categoryInfo = GameManager.Instance.GetCategoryInfo(GameManager.Instance.ActiveCategory);
 
 		categoryText.text	= GameManager.Instance.ActiveCategory.ToUpper();
-		hintBtnText.text	= string.Format("HINT ({0})", GameManager.Instance.CurrentHints);
+		hintBtnText.text	= string.Format("INDICIU ({0})", GameManager.Instance.CurrentHints);
 		iconImage.sprite	= categoryInfo.icon;
 
 		if (GameManager.Instance.ActiveCategory == GameManager.dailyPuzzleId)
 		{
-			levelText.text = string.Format("COMPLETE TO GAIN {0} HINT", GameConfig.instance.completeDailyPuzzleAward);
+			levelText.text = string.Format("COMPLETEAZA PENTRU A PRIMII {0}" + (GameConfig.instance.completeDailyPuzzleAward == 1 ? "INDICIU" : "INDICII"), GameConfig.instance.completeDailyPuzzleAward);
 		}
 		else
 		{
-			levelText.text = string.Format("LEVEL {0}", GameManager.Instance.ActiveLevelIndex + 1);
+			levelText.text = string.Format("NIVEL {0}", GameManager.Instance.ActiveLevelIndex + 1);
 		}
 
 	}

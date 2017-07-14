@@ -8196,7 +8196,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.8
-  m_Text: "      CONTINU\u0102 "
+  m_Text: "CONTINU\u0102 "
 --- !u!222 &2079227072
 CanvasRenderer:
   m_ObjectHideFlags: 0
