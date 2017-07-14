@@ -38,12 +38,12 @@ public class UIScreenCompleteOverlay : UIScreen
 		else
 		{
 			categoryLevelText.gameObject.SetActive(true);
-			categoryLevelText.text = "Level " + (GameManager.Instance.ActiveLevelIndex + 1).ToString();
+			categoryLevelText.text = "Nivel " + (GameManager.Instance.ActiveLevelIndex + 1).ToString();
 		}
 
         int number = (int)data;
         plusHintText.gameObject.SetActive(number > 0);
-        plusHintText.text = "+ " + number + (number == 1 ? " Hint" : " Hints");
+        plusHintText.text = "+ " + number + (number == 1 ? " Indiciu" : " Indicii");
 	}
 
 	#endregion
