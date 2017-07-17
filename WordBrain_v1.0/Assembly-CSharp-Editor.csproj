@@ -60,6 +60,9 @@
  <Reference Include="Assembly-UnityScript-Editor-firstpass">
  <HintPath>E:/munca/five/game/wordbrz/grosfp/WordBrain_v1.0/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>E:/Program Files (x86)/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
