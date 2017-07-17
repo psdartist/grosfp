@@ -123,6 +123,7 @@
     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\NativeExpressAdClient.cs" />
     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+    <Compile Include="Assets\WordGame\Scripts\Custom\OnSegmentCreated.cs" />
     <Compile Include="Assets\WordGame\Scripts\Game\DailyPuzzleButton.cs" />
     <Compile Include="Assets\WordGame\Scripts\Game\GameManager.cs" />
     <Compile Include="Assets\WordGame\Scripts\Game\LetterBoard.cs" />
